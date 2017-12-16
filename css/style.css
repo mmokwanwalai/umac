@@ -1,0 +1,964 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 114px;
+  color: #5a5a5a;
+  font-family: 'supermarket' !important;
+}
+
+.logo {
+  width: 110px;
+}
+/* mm */
+.cr-value{
+  margin-top: -32px;
+  padding-top: 0.4rem;
+  padding-left: 4rem;
+  width: 100%;
+  height: 35px;
+  background-color: #2a338f;
+  font-size: 20px;
+  color: #FFF;
+}
+.cr-display{
+  width: 100%;
+  background-image: url("../images/cr-display.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  height: 11rem;
+  padding: 0.8rem;
+  padding-left: 7rem;
+}
+.cr-box{
+  width: 150px;
+  height: 150px;
+  background-color:rgba(8, 89, 170, 0.4);
+
+  border: 2px solid #0859aa;
+  text-align: center;
+}
+.cr-box-ic{
+  padding-top: 0.6rem;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+.cr-box-txt{
+  width: 100%;
+  height: 50%;padding-top: 20px;
+  line-height: 20px;    
+  color: #FFF;
+}
+.umc-info{
+  background-color: #FFF;
+  width: 100%;
+  height: 500px;
+}
+.umc-info-content{
+  background-color: pink;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 20px;
+  line-height: 35px;
+}
+.umc-info-content p{
+  margin-top: 15px;
+}
+.h-product{
+  width: 100%;
+  height: 50px;
+  background-color: #ff6600;
+}
+nav {
+  background-color: #ff9900;
+}
+
+.nav-item.active .menuOVER::after {
+  border-bottom: 4px solid #ff9900;
+}
+
+.nav-link:hover .menuOVER::after {
+  border-bottom: 4px solid #ff9900;
+}
+
+.nav-link .menuOVER {
+  position: relative;
+}
+
+.nav-link .menuOVER::after {
+  content: "";
+  -webkit-transition: border 0.1s;
+  -moz-transition: border 0.1s;
+  transition: border 0.1s;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.product_item::before{
+  content: "";
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #ccc;
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+.media .media-body{
+  width: auto;
+  display: inline-block;
+  flex: 0.5;
+}
+.menubar {
+  width: 100%;
+  height: 90px;
+}
+
+.menucontact {
+  width: 100%;
+  background-color: transparent;
+  height: 45%;
+}
+
+.menucontact .topbar_wrap {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 0 1rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topbar_wrap img {
+  height: 30px;
+  margin-right: .5rem;
+}
+
+.topbar_wrap h5 {
+  margin-top: 5px;
+}
+
+.topbar .circleIcon {
+  width: 30px;
+  height: 30px;
+  margin: 0 .2rem;
+  background-color: #2b2523;
+}
+
+.search {
+  margin-top: 1px;
+  margin-right: 1.5rem;
+}
+
+.search input {
+  height: 32px;
+  border: none;
+}
+
+.search span {
+  height: 32px;
+  border: none;
+}
+.productMenu{
+  width: 100%;
+  height: auto;
+  max-height: 73vh;
+  position: fixed;
+  z-index: 9999;
+  background-color: #ccc;
+  display: none;
+}
+
+.productMenu .row{
+  padding: 2rem 5rem;
+}
+
+.productMenu .col-4{
+  margin: .5rem 0;
+}
+
+.media img{
+  width: 50px;
+  height: 50px;
+}
+.menu {
+  width: 100%;
+  background-color: #2b2523;
+  height: 55%;
+  padding: 0 .3rem;
+}
+
+.menu .nav-item {
+  font-size: 19px;
+  padding: 0 1vw;
+}
+
+.menu .collapse {
+  height: 100%;
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 5px;
+}
+
+.flag img {
+  width: 40px;
+}
+
+.flag h5 {
+  margin: 0 8px;
+}
+
+.lineVer {
+  height: 25px;
+  width: 1px;
+  background-color: white;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+  margin-bottom: 2rem;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+  height: 40rem;
+  background-color: #777;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.head_topic {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.head_topic h1 {
+  display: inline-block;
+  font-size: 3.5rem;
+  border-bottom: 2px solid black;
+}
+
+.card.cardsetting {
+  border: none;
+}
+
+.bannerHead .bannerGradient {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerTitle {
+  text-align: center;
+  color: white;
+  padding: 0 15vw;
+}
+
+.bannerTitle h1 {
+  font-size: 64px;
+}
+
+.bannerTitle p {
+  font-size: 32px;
+}
+
+.mainBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  z-index: 1;
+  padding: 20px 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  /* Safari */
+  transition: opacity 0.5s;
+}
+
+.card:hover .mainBox {
+  opacity: 1;
+}
+
+.mainBox p {
+  font-size: 21px;
+}
+
+.mainBox button {
+  float: right;
+  background-color: #ff7e00;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.titlebox {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: right;
+  padding: 10px 1.25rem;
+  z-index: 2;
+}
+
+.gradientBox {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+40,000000+100&0+40,0.65+100 */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+  /* IE6-9 */
+}
+
+.banner_contact {
+  margin-top: 2rem;
+  height: 600px;
+  background-image: url('../images/banner_contact.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bannerGradient {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.55) 20%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.55) 20%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 20%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
+}
+
+.banner_contact .container {
+  position: relative;
+  bottom: 0;
+  text-align: right;
+}
+
+.banner_contact .container h1,
+.banner_contact .container p {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.85), -1px -1px 0 rgba(0, 0, 0, 0.45), 1px -1px 0 rgba(0, 0, 0, 0.45), -1px 1px 0 rgba(0, 0, 0, 0.45), 1px 1px 0 rgba(0, 0, 0, 0.45);
+}
+
+.banner_contact .container h1 {
+  color: #ffa200;
+}
+
+.banner_contact .container p {
+  color: white;
+  font-size: 38px;
+}
+
+.card_details .col-lg-6 {
+  margin-bottom: 1.5rem;
+}
+
+.head_topic_box {
+  background-color: #c1c1c1;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.head_topic_box h3 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 5px;
+}
+
+.card_detail .card_details_img {
+  width: 40%;
+}
+
+.card_detail .detail {
+  width: 60%;
+  padding-left: 10px;
+}
+
+.card_detail .detail .btn {
+  background-color: #ff7e00;
+  border-radius: 8px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.feedback .carousel-inner {
+  background-color: #ffa203;
+}
+
+.feedback .carousel-inner .carousel-item {
+  background-color: #FFA202;
+  display: flex;
+  align-items: center;
+  height: auto !important;
+  padding: 3rem 0;
+}
+
+.feedback .card {
+  background-color: transparent;
+  border: none;
+}
+
+.feedback .card-body img {
+  width: 40%;
+  margin-right: 1rem;
+}
+
+.feedback .card-body p {
+  width: 60%;
+}
+
+.feedback .card-body {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.banner_service {
+  margin-top: 3rem;
+  height: auto;
+  background-image: url('../images/banner_service.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.banner_service .container {
+  position: relative;
+  bottom: 0;
+  text-align: left;
+}
+
+.banner_service h2 {
+  color: #ff6600;
+  font-size: 46px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.banner_service p {
+  font-size: 24px;
+}
+
+.banner_service .bannerOpacity {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.titleLoveclients {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.clients {
+  margin-bottom: 4rem;
+}
+
+.jumbotron.newoffice {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.overflowDiv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overflowDiv .detail {
+  padding: 2rem;
+}
+
+.overflowDiv .detail img {
+  margin-bottom: 1rem;
+}
+
+.jumbotron.service_box {
+  text-align: center;
+  background-color: #cccccc;
+  margin-bottom: 0;
+}
+
+.service_box .row {
+  width: 100%;
+}
+
+.service_box img {
+  margin-bottom: 1rem;
+}
+
+.service_box h4 {
+  font-size: 2vw;
+}
+
+.service_box p {
+  font-size: 1.5vw;
+}
+
+footer.jumbotron {
+  background-color: #1b1464;
+  margin-bottom: 0;
+}
+footer {
+  color: #ff6600;
+  font-size: 20px;
+}
+footer a{
+  color: #ff6600;
+  font-size: 20px;
+}
+footer a:hover{
+  color: #ff6600;
+  text-decoration: none;
+}
+.btt{
+  margin-right: 5px;
+  margin-top: -2px;
+}
+footer li {
+  color: white;
+  font-size: 18px;
+}
+
+footer h1 {
+  color: white;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+}
+
+footer .row.icon_circle {
+  padding-left: 15px;
+}
+
+.qrCode {
+  margin-top: 1rem;
+  width: 80%;
+}
+
+footer .row.icon_circle .col-lg-2 {
+  padding: 0 8px;
+}
+
+.circleIcon {
+  width: 100%;
+  background-color: white;
+}
+.feedbackMobile{
+  display: none;
+}
+
+.feedback_desktop{
+  display: block;
+}
+
+.mobileMenu li{
+  text-align: center;
+  font-size: 19px;
+  border-bottom: 2px solid #525252;
+}
+
+.mobileMenu li:last-child {
+  border-bottom: none;
+}
+
+.mobileMenu .dropdown-menu {
+  width: 100%;
+}
+
+.footerMobile{
+  display: none;
+}
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+  @media (max-width: 1258px) {
+.menu .nav-item{
+      padding: 0 .2rem;
+    }
+  }
+
+  @media (max-width: 1165px) {
+    .menu .nav-item{
+         font-size: 1.45vw;
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 0 .2rem !important;
+      }
+      }
+@media (max-width: 991px) {
+  /* Bump up size of carousel content */
+
+  body {
+    padding-top: 66px;
+  }
+  .bannerHead .carousel-item {
+    max-height: 50vw;
+  }
+  .imgMobile {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+  }
+  .bannerHead img {
+    display: none;
+  }
+  .bannerTitle h1 {
+    font-size: 8vw;
+  }
+  .bannerTitle {
+    padding: 0 2rem;
+  }
+  .bannerTitle p {
+    font-size: 3vw;
+  }
+  .menubar {
+    display: none;
+  }
+  .logo {
+    width: 50px;
+  }
+  .head_topic{
+    margin-bottom: 1rem;
+  }
+
+  .head_topic h1{
+   font-size: 36px;
+  }
+   .mainBox p{
+    font-size: 32px;
+  }
+  .mainBox button{
+    font-size: 21px;
+  }
+  .titlebox h4{
+    font-size: 26px;
+  }
+
+  .product .col-6 .mainBox p{
+    font-size: 21px;
+  }
+  .head_topic_box {
+    margin-bottom: 1rem;
+  }
+  .head_topic_box h3 {
+    font-size: 4vw;
+  }
+  .feedbackMobile{
+    display: block;
+  }
+
+  .feedback_desktop{
+    display: none;
+  }
+  
+  .service_box p{
+    font-size: 1.8vw;
+  }
+
+  .service_box h4{
+    font-size: 2.5vw;
+  }
+
+  .service_box .col-md-2{
+    max-width: 20%;
+    padding: 0 .2rem;
+  }
+
+  .service_box  .row{
+    margin: 0;
+  }
+
+  .service_box  img{
+    width: 50%;
+  }
+
+  .banner_contact .container{
+    margin: 0 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .banner_contact h1{
+    font-size: 6.8vw;
+  }
+
+  .banner_contact .container p {
+    font-size: 5vw;
+  }
+ 
+
+  .banner_contact{
+    height: 65vw;
+  }
+  
+  .footerDesktop{
+    display: none;
+  }
+  .footerMobile{
+    display: flex;
+  }
+.footerMobile .row{
+  width: 100%;
+  margin: 0;
+}
+
+.footerMobile .col-12{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .footerMobile .circleIcon{
+    width: 60px;
+    height: 60px;
+    margin: 0 .5rem;
+    margin-bottom: 1rem;
+  }
+  .footerMobile .col-12 h1{
+  
+    font-size: 5.6vw;
+  }
+  .footerMobile .detail p{
+    text-align: center;
+    font-size: 2.6vw;
+  }
+
+
+}
+@media (max-width: 767px) {
+  .service_box  {
+    display: none;
+  }
+  .product .col-6 .mainBox p{
+    font-size: 14px;
+  }
+ .product .col-6 .mainBox button{
+    font-size: 18px;
+  }
+  .product .col-6 .titlebox h4{
+    font-size: 16px;
+  }
+  .overflowDiv .detail{
+    padding: 1rem;
+  }
+  .overflowDiv .detail  img{
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .overflowDiv h3{
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+  }
+
+
+
+}
+@media (max-width: 550px) {
+
+  .mainBox p{
+    font-size: 24px;
+  }
+  .card_details .detail h4{
+      font-size: 4.5vw;
+      margin-bottom: .25rem;
+      }
+    
+      .card_details .detail p{
+        font-size: 3vw;
+        margin-bottom: .25rem;
+      }
+
+      .card_details .detail .btn{
+        font-size: 3.5vw;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+      }
+      .product p{
+        font-size: 5.5vw;
+      }
+      .product .col-6 .mainBox{
+        padding: .5rem;
+      }
+      .product .col-6 .mainBox p{
+        font-size: 3.6vw;
+        margin: 0;
+        margin-bottom: .5rem;
+      }
+
+      .product .col-6 .titlebox h4{
+        font-size: 4vw;
+        margin-bottom: 0;
+      }
+      .product .col-6 .mainBox button{
+        font-size: 3vw;
+      }
+
+      .banner_service  h2{
+        font-size: 7vw;
+      }
+
+      .banner_service  p{
+        font-size: 4.5vw;
+      }
+
+      .footerMobile .detail p{
+        text-align: center;
+        font-size: 3.2vw;
+      }
+      .footerMobile .col-12 h1{
+        
+          font-size: 6vw;
+        }
+
+        .footerMobile .circleIcon{
+          width: 40px;
+          height: 40px;
+          margin: 0 .2rem;
+          margin-bottom: .5rem;
+        }
+
+        .overflowDiv .detail{
+          padding: 1rem;
+        }
+        .overflowDiv .detail  img{
+          width: 50px;
+          margin-bottom: 10px;
+        }
+        .overflowDiv h3{
+          color: white;
+          font-size: 18px;
+          text-shadow: 1px 1px 2px black;
+        }
+
+     
+       
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
