@@ -224,6 +224,87 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 3.5rem;
 }
+
+.solution{
+  background-color: #333333;
+}
+.sol-info{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000;
+}
+.sol-input{
+  width: 100%;
+  height: auto;
+  padding-left: 6.6rem;
+}
+
+.b-inp{
+  width: 185px;
+  height: 45px;
+  border-radius: 7px;
+  border: none;
+  padding: 0 20px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.b-send{
+  width: 130px;
+  height: 45px;
+  margin-left: 20px;
+  background-color: #f13900;
+  font-size: 18px;  
+  color: #FFF;
+  border-radius: 7px;
+}
+.b-add{
+  width: 130px;
+  height: 45px;
+  margin-left: 20px;
+  background-color: #00c300;
+  font-size: 18px;
+  color: #FFF;
+  border-radius: 7px;
+}
+input:focus {
+    outline: none;
+}
+.service{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  clear: both;
+}
+.service-l{
+  float: left;
+  background-color: red;
+  width: 30%;
+  height: 200px;
+  text-align: left;
+  font-size: 1rem;
+  padding: 0;
+}
+.service-c{
+    float: left;
+  background-color: green;
+  width: 60%;
+  height: auto;
+  padding: 0;
+  clear: both;
+}
+.service-r{
+    float: left;
+  background-color: pink;
+  width: 60%;
+  height: auto;
+  padding: 0;
+  clear: both;
+}
 nav {
   background-color: #ff9900;
 }
