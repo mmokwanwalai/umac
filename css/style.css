@@ -157,7 +157,17 @@ body {
   text-align: center;
   padding-bottom: 1rem;
   font-size: 20px;
-  line-height: 35px;
+  color: #000;
+}
+.sol-info-content{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 35px;
+  color: #FFF;
+}
+.solution-logo{
+  margin-left: -100px;
 }
 
 .p-pic-l{
@@ -224,7 +234,6 @@ body {
   margin-top: 1.5rem;
   margin-bottom: 3.5rem;
 }
-
 .solution{
   background-color: #333333;
 }
@@ -236,13 +245,18 @@ body {
   font-size: 20px;
   line-height: 35px;
   color: #000;
+  padding-top: 3rem;
 }
 .sol-input{
   width: 100%;
   height: auto;
-  padding-left: 6.6rem;
+  margin: 0;
+  padding-left: 6rem;
 }
+.form-inline{   
+  padding-bottom: 2rem;
 
+}
 .b-inp{
   width: 185px;
   height: 45px;
@@ -274,37 +288,104 @@ body {
 input:focus {
     outline: none;
 }
+
 .service{
-  width: 100%;
-  height: 300px;
+  width: 100%
+  height:auto;
+}
+.text-dec{
   text-align: center;
-  clear: both;
+  font-size: 40px;
+  color: #f26522;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
-.service-l{
-  float: left;
-  background-color: red;
-  width: 30%;
+.service-pic{
+  background-color: orange;
+  height: auto;
+  padding: 0;
+}
+.service-content-l{
+  background-color: #333f48;
+  color: #FFF;
+  padding-top: 3rem;
+  height: auto;
+}
+.service-content-l h5{
+  line-height: 35px;
+}
+.service-content-r{
+  background-color: #e2e2e2;
+  color: #000;
+  padding-top: 3rem;
+  height: auto;
+}
+.service-content-r h5{
+  line-height: 35px;
+}
+.sc-l{
+  width: 130px;
+  height: 45px;
+  background-color: #f26522 ;
+  font-size: 18px;
+  color: #FFF;
+  border:none;
+  padding-top: 10px;
+}
+.sc-r{
+  width: 130px;
+  height: 45px;
+  background-color: #2a338f;
+  font-size: 18px;
+  color: #FFF;
+  border:none;
+  padding-top: 10px;
+}
+
+.client{
+  width: 100%;
+  height:auto;
+}
+.slide-client{
+  width: 100%;
   height: 200px;
-  text-align: left;
-  font-size: 1rem;
-  padding: 0;
+  text-align: center;
+  background-color: red;
+  color: #fff;
 }
-.service-c{
-    float: left;
-  background-color: green;
-  width: 60%;
+.news{
+  width: 100%;
+  height:auto;
+  background-color: orange;
+}
+.news-l{
+  background-color: yellow;
+  width: 100%;
   height: auto;
   padding: 0;
-  clear: both;
 }
-.service-r{
-    float: left;
+.news-r{
   background-color: pink;
-  width: 60%;
+  width: 100%;
   height: auto;
   padding: 0;
-  clear: both;
 }
+.news-content-box{
+  background-color: black;
+  width: 100%;
+  height:25%;
+}
+.news-pic-box{
+  background-color: brown;
+  width: 100%;
+  height: 10px;
+}
+.news-detail-box{
+  background-color: orange;
+  width: 100%;
+  height: 10px;
+}
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
   background-color: #ff9900;
 }
@@ -907,16 +988,54 @@ footer .row.icon_circle .col-lg-2 {
   -------------------------------------------------- */
   
   @media (max-width: 1258px) {
-.menu .nav-item{
+    .menu .nav-item{
       padding: 0 .2rem;
     }
+    .sol-input{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-left: 7rem;
+    }
   }
+
+  @media (max-width: 1475px) {
+    .service-content-l{
+    background-color: #333f48;
+    color: #FFF;
+    padding-top: 1rem;
+    height: auto;
+    }
+    .service-content-l h5{
+      line-height: 25px;
+    }
+    .service-content-r{
+      background-color: #e2e2e2;
+      color: #000;
+      padding-top: 1rem;
+      height: auto;
+    }
+    .service-content-r h5{
+      line-height: 25px;
+    }
+  }
+  @media (max-width: 1475px) {
+    /*เปลี่ยนขนาดดดดดดด*/
+  }
+
+
 
    @media (max-width: 1200px) {
     .h-product-l-2{
       margin-top: 40px;
       width: 100%;
       padding: 0;
+    }
+    .sol-input{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-left: 1rem;
     }
   }
 
