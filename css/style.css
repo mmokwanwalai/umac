@@ -138,7 +138,7 @@ body {
   margin-top: 50px;
   width: 100%;
   height: auto;
-  background-color: pink;
+  background-color: transparent;
   padding: 0 40px;
 }
 .h-all-product{
@@ -173,7 +173,7 @@ body {
 .p-pic-l{
   width: 100%;
   height: auto;
-  background-color: red;
+  background-color: transparent;
   padding-right: 40px;
   padding-bottom: 40px;
 }
@@ -181,7 +181,7 @@ body {
 .p-pic-c{
   width: 100%;
   height: auto;
-  background-color: red;
+  background-color: transparent;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 40px;
@@ -190,7 +190,7 @@ body {
 .p-pic-r{
   width: 100%;
   height: auto;
-  background-color: red;
+  background-color: transparent;
   padding-left: 40px;
   padding-bottom: 40px;
 }
@@ -365,7 +365,7 @@ input:focus {
 .news{
   width: 100%;
   height:auto;
-  background-color: orange;
+  background-color: transparent;
 }
 .news-l{
   background-image: url("../images/pd-1.jpg");
@@ -376,7 +376,7 @@ input:focus {
   background-position: center;
 }
 .news-r{
-  background-color: pink;
+  background-color: transparent;
   width: 100%;
   height: auto;
   margin: 0;
@@ -393,26 +393,40 @@ input:focus {
   height:auto;
 }
 .news-pic-box{
-  background-color: brown;
+  background-color: transparent;
   width: 100%;
   height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   padding-left: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .news-detail-box{
-  background-color: orange;
+  background-color: transparent;
   width: 80%;
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 2.2rem 0 0.5rem 0;  
   }
-.detail-box{
-  background-color: red;
-  width: 100%;
-  height: auto;
-}
+  .news-header{
+    width: 100%;
+    height: 50px;
+  }
+  .line-box{
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid #000;
+  }
+  .news-header-text{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    color: #000;
+    padding-top: 15px;
+  }
+  .pd-new{
+    margin-top: 20px;
+  }
 /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
   background-color: #ff9900;
@@ -1046,7 +1060,7 @@ footer .row.icon_circle .col-lg-2 {
   @media (max-width: 1303px) {
 
     .service-content-l{
-    background-color: red;
+    background-color: #333f48;
     color: #FFF;
     padding-top: 3rem;
       height: auto;
@@ -1075,7 +1089,24 @@ footer .row.icon_circle .col-lg-2 {
     .service-content-r h3{
       font-size: 26px;
     }
-    
+    .news-pic-box{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-top: 1rem;
+    }
+    .news-detail-box{
+    background-color: transparent;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2rem 0 0.2rem 0;  
+    }
+    .news-detail-box h3{
+    font-size: 22px;
+    }
   }
 
   @media (max-width: 1165px) {
