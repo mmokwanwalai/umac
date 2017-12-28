@@ -453,7 +453,34 @@ input:focus {
   .pd-new{
     margin-top: 10px;
   }
+  .our-story{
+  	margin-top: 2rem;
+  }
+  .story-header h1{
+  	width: 170px;
+  	border-bottom: 3px solid #1b1464;
+  }
+  .story-content{
 
+  }
+  .story-pic{
+  background-image: url("../images/pic-story.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  }
+  .story-map1{
+  width: 100%;
+  height: auto;
+  }
+  .story-map2{
+	display: none;
+  }
+  .map}{
+  background-color: #fafafa;
+  }
 /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
   background-color: #ff9900;
@@ -1026,7 +1053,7 @@ footer .row.icon_circle .col-lg-2 {
 
 .circleIcon {
   width: 100%;
-  background-color: white;
+  background-color: transparent;
 }
 .feedbackMobile{
   display: none;
@@ -1149,6 +1176,15 @@ footer .row.icon_circle .col-lg-2 {
   }
 @media (max-width: 991px) {
   /* Bump up size of carousel content */
+	
+
+  .pic-eff{
+	  width: 100%;
+	  height: auto;
+	  margin-top: 1.5rem;
+	  margin-bottom: 3.5rem;
+	  background-color: red;
+	}
   .news-l h1{
     margin-top: 3rem;
     margin-left: 20px;
@@ -1280,7 +1316,7 @@ footer .row.icon_circle .col-lg-2 {
     }
 
     .pic-eff{
-      width: 80%;
+      width: 100%;
       height: auto;
       margin-top: 3rem;
       margin-bottom: 3rem;
@@ -1599,7 +1635,7 @@ footer .row.icon_circle .col-lg-2 {
 
 }
 @media (max-width: 767px) {
-
+	
     .cr-display{
       width: 100%;
       background-image: url("../images/cr-display.jpg");
@@ -1742,7 +1778,17 @@ footer .row.icon_circle .col-lg-2 {
 
 }
 @media (max-width: 550px) {
-  
+
+	.story-map1{
+  width: 100%;
+  height: auto;
+  display: none;
+	}
+  .story-map2{
+  width: 100%;
+  height: auto;
+  display: block;
+  }
   .service-content-l{
       background-color: #333f48;
       color: #FFF;
