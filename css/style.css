@@ -294,9 +294,10 @@ input:focus {
 }
 
 .service{
-  width: 100%
-  height:auto;
+  width: 100%;
+  height: auto;
 }
+
 .text-dec{
   text-align: center;
   font-size: 40px;
@@ -478,7 +479,7 @@ input:focus {
   .story-map2{
 	display: none;
   }
-  .map}{
+  .map{
   background-color: #fafafa;
   }
 /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
@@ -489,12 +490,31 @@ nav {
 .navbar{
   padding-left:0;
   padding-right:0;
+  
 }
 
 .nav-link .menuOVER {
   position: relative;
   color: #000;
+
 }
+.navbar-nav{
+  height: 100%;
+
+}
+
+.navbar-nav li{
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-nav li:hover,.navbar-nav li.active{
+  background-color: #ff99005d;
+}
+
+
+
 
 .nav-link .menuOVER::after {
   content: "";
@@ -1950,7 +1970,7 @@ footer .row.icon_circle .col-lg-2 {
     }  
     .cr-display{
       width: 100%;
-      background-image: background-image: url("../images/cr-display.jpg");
+      background-image: url("../images/cr-display.jpg");
       background-position: center;
       background-size: cover;
       position: relative;
