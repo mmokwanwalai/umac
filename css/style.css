@@ -1,3 +1,4 @@
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 
@@ -356,7 +357,7 @@ input:focus {
   margin-top: 20px;
 }
 
-.client{
+.top-slide{
   width: 100%;
   height:auto;
 }
@@ -482,7 +483,75 @@ input:focus {
   .map{
   background-color: #fafafa;
   }
-/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+  .mid-menu{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+  }
+  .meessage{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .meessage-content{
+    font-size: 20px;
+    padding-left: 40px;
+  }
+  .meessage-pic{
+  background-image: url("../images/pic-message.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  }
+  .vision{
+  width: 100%;
+  margin-top: 50px;
+  background-color: #fafafa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+   .vision-header{
+  font-size: 20px;
+  }
+  .test1{
+    background-color: red;
+  }
+   .test2{
+    background-color: pink;
+  }
+  .v-img{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    margin-top: 20px;
+  }
+  .v-content{
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 0 15px;
+    font-size: 20px;
+  }
+  .values1{
+    margin-top: 20px;
+    font-size: 20px;
+    display:  show;
+  }
+  .values2{
+    display:  none;
+  }
+  .symbol{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #fafafa;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+  .symbol-header{
+  font-size: 20px;
+  }
+/* mo end mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
   background-color: #ff9900;
 }
@@ -1196,8 +1265,18 @@ footer .row.icon_circle .col-lg-2 {
   }
 @media (max-width: 991px) {
   /* Bump up size of carousel content */
-	
-
+  	.meessage-pic{
+    background-image: url("../images/pic-message.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 20px;
+    }
+     .meessage-content{
+    font-size: 20px;
+  }
   .pic-eff{
 	  width: 100%;
 	  height: auto;
@@ -1655,7 +1734,15 @@ footer .row.icon_circle .col-lg-2 {
 
 }
 @media (max-width: 767px) {
-	
+	   .values1{
+      display: none;
+    }
+    .values2{
+      display: block;
+      padding: 20px;
+      font-size: 18px;
+    }
+
     .cr-display{
       width: 100%;
       background-image: url("../images/cr-display.jpg");
@@ -1798,7 +1885,17 @@ footer .row.icon_circle .col-lg-2 {
 
 }
 @media (max-width: 550px) {
-
+   
+   .meessage h2{
+      font-size: 28px;
+    }
+    .meessage h3{
+      font-size: 26px;
+    }
+  .meessage-content{
+    font-size: 18px;
+    padding: 0 15px; 
+  }
 	.story-map1{
   width: 100%;
   height: auto;
