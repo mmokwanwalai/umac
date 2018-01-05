@@ -525,7 +525,7 @@ input:focus {
     width: 100%;
     height: auto;
     background-color: yellow;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .v-content{
     width: 100%;
@@ -550,6 +550,78 @@ input:focus {
   }
   .symbol-header{
   font-size: 20px;
+  }
+  .text-pay{
+    width: 100%;
+    height: 170px;
+    padding-top: 65px;
+    text-align: center;
+    color: #FFF;
+  }
+  .header-payment{
+    background-image: url("../images/header-payment.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  .bank{
+    width: 100%;
+    height: auto;
+  }
+  .img-bank{
+    width: 100%;
+    height: auto;
+  }
+  .txt-bank{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .text-in-h{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  .text-in{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    margin-top: 2.5rem;
+  }
+  .pay-t-head{
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #ff7e00;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  .pay-bbl{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+   .pay-kbank{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #d7d7d7;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+   .pay-ktb{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 8px;
   }
 /* mo end mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
