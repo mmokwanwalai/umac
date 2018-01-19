@@ -821,6 +821,8 @@ input:focus {
     background-position: center;
   }
   .other2{  
+    width: 100%;
+    height: auto;
     background-color: #f1f1f1;
   }
   .ot2-ln{
@@ -863,6 +865,37 @@ input:focus {
     font-size: 18px;  
     color: #fff6ec;
     border-radius: 5px;
+    padding-top: 10px;
+  }
+  .contact-box{
+    display: block;
+
+  }
+  .hide-contact{
+    display: none;
+  }
+  .hide-contact1{
+    width: 100%;
+    height: 50px;
+    background-color: #00c300;
+    text-align: center;
+    color: #FFF;
+    padding-top: 10px;
+  }
+  .hide-contact2{
+    width: 100%;
+    height: 50px;
+    background-color: #0092b3;
+    text-align: center;
+    color: #FFF;
+    padding-top: 10px;
+  }
+  .hide-contact3{
+    width: 100%;
+    height: 50px;
+    background-color: #da4b42;
+    text-align: center;
+    color: #FFF;
     padding-top: 10px;
   }
 /* mo end mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
@@ -1571,6 +1604,7 @@ footer .row.icon_circle .col-lg-2 {
   }
 @media (max-width: 991px) {
   /* Bump up size of carousel content */
+  
     .job-text-in-h{
     width: 100%;
     height: auto;
@@ -2076,6 +2110,28 @@ footer .row.icon_circle .col-lg-2 {
 
 }
 @media (max-width: 767px) {
+  .other1{
+    background-image: url("../images/other-pic1.jpg");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+   .other3{
+    background-image: url("../images/other-pic2.jpg");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  .contact-box{
+    display: none;
+  }
+  .hide-contact{
+    display: block;
+  }
   .h-product-l{
       width: 100%;
       height: auto;
