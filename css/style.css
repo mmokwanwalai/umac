@@ -281,7 +281,7 @@ body {
 .b-inp{
   width: 90%;
   height: 40px;
-  border-radius: 7px;
+  border-radius: 5px;
   border: none;
   padding: 0 20px;
   font-size: 18px;
@@ -293,7 +293,7 @@ body {
   background-color: #f13900;
   font-size: 18px;  
   color: #FFF;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 .b-add{
   width: 120px;
@@ -301,7 +301,7 @@ body {
   background-color: #00c300;
   font-size: 18px;
   color: #FFF;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 input:focus {
     outline: none;
@@ -378,7 +378,6 @@ input:focus {
   width: 100%;
   height: 200px;
   text-align: center;
-  background-color: red;
   color: #fff;
 }
 .news{
@@ -412,7 +411,7 @@ input:focus {
     background-color: #ff6600;
     font-size: 18px;
     color: #FFF;
-    border-radius: 7px;
+    border-radius: 5px;
     border: 2px solid #e3e3e3;
     margin-left: 20px;
 }
@@ -499,7 +498,6 @@ input:focus {
   .mid-menu{
     width: 100%;
     height: 100px;
-    background-color: red;
   }
   .meessage{
     margin-top: 50px;
@@ -601,7 +599,7 @@ input:focus {
   .text-in-h{
     width: 100%;
     height: auto;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     color: #fff;
@@ -618,28 +616,28 @@ input:focus {
     background-color: #ff7e00;
     margin-bottom: 20px;
     margin-top: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .pay-bbl{
     padding-top: 20px;
     padding-bottom: 5px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
    .pay-kbank{
     padding-top: 20px;
     padding-bottom: 5px;
     background-color: #d7d7d7;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
    .pay-ktb{
     padding-top: 20px;
     padding-bottom: 5px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .info-service{
     font-size: 20px;
@@ -701,7 +699,7 @@ input:focus {
     padding-bottom: 15px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .pay-kbank2{
     height: 120px;
@@ -709,7 +707,7 @@ input:focus {
     padding-bottom: 15px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .pay-ktb2{
     height: 120px;
@@ -717,7 +715,7 @@ input:focus {
     padding-bottom: 15px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .text-in2{
     width: 100%;
@@ -749,6 +747,124 @@ input:focus {
     border-radius: 5px;
     margin-bottom: 20px;
    }
+
+  .job-t-head{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #ff7e00;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+    .job-c1{      
+    width: 100%;
+    height: auto;
+    background-color: #b7b7b7;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+  }
+    .job-c2{      
+    width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: 3px;
+  }
+    .job-text-in{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+ .job-show-btn{
+    background: none;
+    border: none;
+  }
+  .job-show-btn:focus{
+    outline: none;
+  }
+  .job-show{      
+    width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+ .job-text-in-h{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+ }
+ .job{
+  margin: 15px; 
+ }
+ .other1{
+    background-image: url("../images/other-pic1.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+   .other3{
+    background-image: url("../images/other-pic2.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  .other2{  
+    background-color: #f1f1f1;
+  }
+  .ot2-ln{
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #4e4e4e;
+    line-height: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    color: #515151;
+    font-size: 16px;
+  }
+  .b-carrer{
+  width: 150px;
+  height: 40px;
+  background-color: #fe8713;
+  font-size: 18px;  
+  color: #fff6ec;
+  border-radius: 5px;
+  padding-top: 10px;
+  }
+  .bt-c{
+    text-align: center;
+  }
+  .contact-footer{ 
+    background-image: url("../images/contact-footer.jpg");
+    width: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 45px;
+  }
+  .b-apply{
+    width: 100px;
+    height: 40px;
+    background-color: #fe8713;
+    font-size: 18px;  
+    color: #fff6ec;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
 /* mo end mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 nav {
   background-color: #ff9900;
@@ -779,10 +895,6 @@ nav {
 .navbar-nav li:hover,.navbar-nav li.active{
   background-color: #ff99005d;
 }
-
-
-
-
 .nav-link .menuOVER::after {
   content: "";
   -webkit-transition: border 0.1s;
@@ -1061,7 +1173,7 @@ nav {
 .mainBox button {
   float: right;
   background-color: #ff7e00;
-  border-radius: 8px;
+  border-radius: 5px;
   color: white;
   border: none;
   padding-left: 15px;
@@ -1165,7 +1277,7 @@ nav {
 
 .card_detail .detail .btn {
   background-color: #ff7e00;
-  border-radius: 8px;
+  border-radius: 5px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -1288,6 +1400,7 @@ nav {
 .service_box p {
   font-size: 1.5vw;
 }
+
 
 footer.jumbotron {
   background-color: #1b1464;
@@ -1458,6 +1571,30 @@ footer .row.icon_circle .col-lg-2 {
   }
 @media (max-width: 991px) {
   /* Bump up size of carousel content */
+    .job-text-in-h{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom:0px;
+    color: #fff;
+ }
+  .text-in-h{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    margin-top: 0.8em;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+    .job-t-head{
+    padding-top:0.7rem;
+    height: 45px;
+    background-color: #ff7e00;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
     .payment1{
      display:none;
     }
@@ -1540,7 +1677,6 @@ footer .row.icon_circle .col-lg-2 {
 	  height: auto;
 	  margin-top: 1.5rem;
 	  margin-bottom: 3.5rem;
-	  background-color: red;
 	}
   .news-l h1{
     margin-top: 3rem;
@@ -1559,7 +1695,7 @@ footer .row.icon_circle .col-lg-2 {
       background-color: #ff6600;
       font-size: 18px;
       color: #FFF;
-      border-radius: 7px;
+      border-radius: 5px;
       border: 2px solid #e3e3e3;
       margin-left: 20px;
       margin-bottom: 3rem;
@@ -1646,7 +1782,7 @@ footer .row.icon_circle .col-lg-2 {
     .b-inp{
       width: 60%;
       height: 40px;
-      border-radius: 7px;
+      border-radius: 5px;
       border: none;
       padding: 0 20px;
       font-size: 18px;
@@ -1658,7 +1794,7 @@ footer .row.icon_circle .col-lg-2 {
       background-color: #f13900;
       font-size: 18px;  
       color: #FFF;
-      border-radius: 7px;
+      border-radius: 5px;
       align-content: right;
     }
     .b-add{
@@ -1667,7 +1803,7 @@ footer .row.icon_circle .col-lg-2 {
       background-color: #00c300;
       font-size: 18px;
       color: #FFF;
-      border-radius: 7px;
+      border-radius: 5px;
     }
 
     .pic-eff{
@@ -2275,7 +2411,7 @@ footer .row.icon_circle .col-lg-2 {
     .b-inp{
       width: 80%;
       height: 40px;
-      border-radius: 7px;
+      border-radius: 5px;
       border: none;
       padding: 0 20px;
       font-size: 18px;
@@ -2288,7 +2424,7 @@ footer .row.icon_circle .col-lg-2 {
       background-color: #f13900;
       font-size: 16px;  
       color: #FFF;
-      border-radius: 7px;
+      border-radius: 5px;
       align-content: right;
     }
     .b-add{
@@ -2298,7 +2434,7 @@ footer .row.icon_circle .col-lg-2 {
       background-color: #00c300;
       font-size: 16px;
       color: #FFF;
-      border-radius: 7px;
+      border-radius: 5px;
 
     }
 
@@ -2510,7 +2646,7 @@ footer .row.icon_circle .col-lg-2 {
     padding-bottom: 15px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .pay-kbank2{
     height:auto;
@@ -2518,7 +2654,7 @@ footer .row.icon_circle .col-lg-2 {
     padding-bottom: 15px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .pay-ktb2{
     height:auto;
@@ -2526,7 +2662,7 @@ footer .row.icon_circle .col-lg-2 {
     padding-bottom: 15px;
     background-color: #ebebeb;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .text-in2{
     width: 100%;
