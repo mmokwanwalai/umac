@@ -772,7 +772,7 @@ input:focus {
     border-radius: 5px;
     padding-bottom: 3px;
   }
-    .job-text-in{
+  .job-text-in{
     width: 100%;
     height: auto;
     font-size: 18px;
@@ -804,6 +804,32 @@ input:focus {
  .job{
   margin: 15px; 
  }
+ .apply{
+  margin: 15px;
+ }
+ .apply-show{      
+    width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .apply-h-line{
+  width: 100%;
+  height: auto;    
+  background-color: #fe8713;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-bottom: 3px;
+  }
+  .apply-text-in{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
  .other1{
     background-image: url("../images/other-pic1.jpg");
     width: 100%;
@@ -866,6 +892,10 @@ input:focus {
     color: #fff6ec;
     border-radius: 5px;
     padding-top: 10px;
+  }
+  .b-apply a{
+    text-decoration: none;
+    color: #fff6ec;
   }
   .contact-box{
     display: block;
