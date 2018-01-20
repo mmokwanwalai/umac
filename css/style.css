@@ -25,18 +25,46 @@ body {
   color: #FFF;
   text-align: left;
 }
-.cr-display{
+.our-cor{
   width: 100%;
+  height: auto;
   background-image: url("../images/cr-display.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
   display: flex;
-  height: 11rem;
-  padding: 0.8rem;
-  padding-left: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+.our-box-bg1{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 1px solid #0859aa;
+}
+.our-box-bg2{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 1px solid #0859aa;
+}
+.our-box-bg3{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-align: center;    
+  border: 1px solid #0859aa;
+}
+.our-box-bg4{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 1px solid #0859aa;
 
+}
 .cr-box{
   width: 150px;
   height: 150px;
@@ -44,12 +72,6 @@ body {
 
   border: 2px solid #0859aa;
   text-align: center;
-}
-.cr-box-ic{
-  padding-top: 0.6rem;
-  text-align: center;
-  width: 100%;
-  height: 50%;
 }
 .cr-box-txt{
   width: 100%;
@@ -155,7 +177,7 @@ body {
   margin-top: 50px;
   width: 100%;
   height: auto;
-  padding: 0 40px;
+  background-color: red;
 }
 .h-all-product{
   width: 100%;
@@ -164,15 +186,12 @@ body {
   color: #FFF;
   font-size: 20px;
   padding-left: 1.5rem;
-  padding-top: 0.5rem;
-  margin-bottom: 30px;
   
 }
 .all-product-content{
   width: 100%;
   height: auto;
   text-align: center;
-  padding-bottom: 1rem;
   font-size: 20px;
   color: #000;
 }
@@ -1888,16 +1907,6 @@ footer .row.icon_circle .col-lg-2 {
       font-size: 20px;
       color: #FFF;
     }
-    .cr-display{
-      width: 100%;
-      background-image: url("../images/cr-display.jpg");
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      display: flex;
-      height: 11rem;
-      padding: 0.8rem;
-    }
     .cr-box{
       width: 150px;
       height: 150px;
@@ -1905,12 +1914,6 @@ footer .row.icon_circle .col-lg-2 {
 
       border: 2px solid #0859aa;
       text-align: center;
-    }
-    .cr-box-ic{
-      padding-top: 0.6rem;
-      text-align: center;
-      width: 100%;
-      height: 50%;
     }
     .cr-box-txt{
       width: 100%;
@@ -2227,15 +2230,6 @@ footer .row.icon_circle .col-lg-2 {
       padding: 20px;
       font-size: 18px;
     }
-    .cr-display{
-      width: 100%;
-      background-image: url("../images/cr-display.jpg");
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      display: flex;
-      height: 11rem;
-    }
     .cr-box{
       width: 120px;
       height: 120px;
@@ -2244,12 +2238,7 @@ footer .row.icon_circle .col-lg-2 {
       border: 2px solid #0859aa;
       text-align: center;
     }
-    .cr-box-ic{
-      padding-top: 0.6rem;
-      text-align: center;
-      width: 100%;
-      height: 50%;
-    }
+    
     .cr-box-txt{
       width: 100%;
       height: 50%;
@@ -2359,6 +2348,18 @@ footer .row.icon_circle .col-lg-2 {
 
 }
 @media (max-width: 550px) {
+   .our-cor{
+      width: 100%;
+      height: auto;
+      background-image: url("../images/cr-display.jpg");
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
    .h-product-l{
       width: 100%;
       height: auto;
@@ -2595,15 +2596,6 @@ footer .row.icon_circle .col-lg-2 {
       height: 20px;
       padding: 0;
     }  
-    .cr-display{
-      width: 100%;
-      background-image: url("../images/cr-display.jpg");
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      display: flex;
-      height: 7.4rem;
-    }
     .cr-box{
       width: 90px;
       height: 90px;
@@ -2611,20 +2603,6 @@ footer .row.icon_circle .col-lg-2 {
       border: 2px solid #0859aa;
       text-align: center;
       margin-left: -10px;
-    }
-    .cr-box-ic{
-      padding-top: 0.6rem;
-      text-align: center;
-      width: 100%;
-      height: 50%;
-    }
-    .cr-box-txt{
-      width: 100%;
-      height: 50%;
-      line-height: 15px;    
-      color: #FFF;
-      font-size: 14px;
-      margin-top: -8px;
     }
       .umc-info-content{
       width: 100%;
@@ -2781,6 +2759,7 @@ footer .row.icon_circle .col-lg-2 {
         }
 }
 @media (max-width: 575px) {
+    
    .show-btn{
         background: none;
         border: none;
